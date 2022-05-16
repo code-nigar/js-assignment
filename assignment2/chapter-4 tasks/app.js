@@ -1,5 +1,6 @@
 //task 1
 var numbers, $, _;
+
 numbers="numbers";
 $="$";
 _="_";
