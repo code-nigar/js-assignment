@@ -1,52 +1,43 @@
 //task 1
 var a =10;
-console.log(
-    "Result: \n"+
-    "the vale of a is: "+ a 
-);
+document.write(
+    "<b><i>TASK 1</i></b>"+"<br>"+
+    "Result: \n"+"<br>"+"<br>"+
+    "the value of a is: "+ a + "<br>"+
+    "----------------------"+ "<br>"+"<br>"+
 
-console.log(
-    "the value of ++a is: " + ++a
-);
-console.log(
-    "now the value of a is: "+ a
-);
+    "the value of ++a is: " + ++a + "<br>"+
 
+    "now the value of a is: "+ a +"<br>"+"<br>"+
 
-console.log(
-    "the value of a++ is: " + a++
-);
-console.log(
-    "now the value of a is: "+ a
-);
+    "the value of a++ is: " + a++ +"<br>"+
 
+    "now the value of a is: "+ a +"<br>"+"<br>"+
 
-console.log(
-    "the value of --a is: " + --a
-);
-console.log(
-    "now the value of a is: "+ a
-);
+    "the value of --a is: " + --a +"<br>"+
 
+    "now the value of a is: "+ a +"<br>"+"<br>"+
 
-console.log(
-    "the value of a-- is: " + a--
-);
-console.log(
-    "now the value of a is: "+ a
+    "the value of a-- is: " + a-- +"<br>"+
+
+    "now the value of a is: "+ a +"<br>"
 );
 
 //task2
 a=2;
 var b= 1;
-console.log(
-    "--a = "+ Number(--a) +"\n"+
-    "--a - --b = "+ Number(--a - --b) +"\n"+
-    "--a - --b + ++b = "+ Number(--a - --b + ++b) +"\n"+
-    "--a - --b + ++b + b-- = "+ Number(--a - --b + ++b + b--) +"\n"
+document.write(
+    "<br>"+"<br>"+
+    "<b><i>TASK 2</i></b>"+"<br>"+
+    "--a = "+ Number(--a) +"<br>"+
+    "--a - --b = "+ Number(--a - --b) +"<br>"+
+    "--a - --b + ++b = "+ Number(--a - --b + ++b) +"<br>"+
+    "--a - --b + ++b + b-- = "+ Number(--a - --b + ++b + b--) +"<br>"+"<br>"
+    +"<br>"
 );
 
 //task 3
+document.write("<b><i>TASK 3</i></b>"+"<br>");
 var name= prompt("whats your name?");
 alert("hello "+name+" :)");
 
