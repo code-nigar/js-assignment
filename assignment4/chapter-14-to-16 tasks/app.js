@@ -130,3 +130,15 @@ console.log("Out: \n"+arr14.pop());     //output lifo manner
 document.write("<h2>"+"TASK 15 - DROPDOWN MENU of manufacturers"+"</h2>");//task15
 var manuf = ["Apple", "Samsung", "Nokia", "Motorola", "Sony", "Haier"];
 document.write("<form><select name=\"manufacturer\"><option value=\"iphone\">"+manuf[0]+"</option><option value=\"sam\">"+manuf[1]+"</option><option value=\"nokia\">"+manuf[2]+"</option><option value=\"motorola\">"+manuf[3]+"</option><option value=\"sony\">"+manuf[4]+"</option><option value=\"haier\">"+manuf[5]+"</option></select></form>");
+
+console.log("------------ WELCOME TO TASK 15 ------------  ");              //task15
+//Check whether the input word is palindrome or not
+var word = prompt("insert word","noon");
+var check = word.split("").reverse().join("");
+
+if (word === check){
+    alert("its a palindrome");
+}
+else{
+    alert("-not a palindrome");
+}
