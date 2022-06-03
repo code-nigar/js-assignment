@@ -1,4 +1,5 @@
 //User Input & Conditional Statement | JAVASCRIPT
+//https://drive.google.com/file/d/18p0_VDp0Rcxr2gUs4ylBGIu0xa2tK-tU/view
 
 //task 1
 var city = prompt("enter city name", "Karachi");

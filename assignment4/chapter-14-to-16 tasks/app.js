@@ -1,5 +1,5 @@
 //arrays
-//https://classroom.google.com/u/0/c/NDU5MzM5OTI2MTIz/a/NTIxNzQzMjEyODgy/details
+//https://drive.google.com/file/d/1925ZOBDlLSFkkWOfCwvVwhw52sz48KgU/view
 
 console.log("------------ WELCOME TO TASK 1 ------------" );//task1
 var arr1 = [];
