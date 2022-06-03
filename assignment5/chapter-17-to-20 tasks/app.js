@@ -97,7 +97,9 @@ for(var i = 1; i<=20; i++){
 }
 
 
-/* //CLASS PRACTICE TASK
+/* 
+//CLASS PRACTICE TASK
+// write a program without using any predefined method to check palindrome word.
 
 var prom = prompt("insert any word to check if palindrom or not","abba");
 var store = [];
