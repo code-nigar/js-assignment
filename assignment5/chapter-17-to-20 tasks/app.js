@@ -97,11 +97,14 @@ for(var i = 1; i<=20; i++){
 }
 
 
-/* 
-//CLASS PRACTICE TASK
+
+//////////////////          CLASS PRACTICE TASK       //////////////////////////
 // write a program without using any predefined method to check palindrome word.
 
-var prom = prompt("insert any word to check if palindrom or not","abba");
+// METHOD 1
+
+console.log("------------ CLASS TASK - Palindrome word ------------  ");              
+var prom = prompt("insert any word to check if palindrom or not","civic");
 var store = [];
 var storeRev = [];
 var flag = false;
@@ -130,7 +133,8 @@ if(store.length === storeRev.length){
 }else{
     console.log("its not a palindrome");
 }
-*/
+
+// METHOD 2
 /*
 var prom = prompt("insert any word to check if palindrom or not","abba");
 var flag = "";
@@ -143,3 +147,35 @@ if( prom === flag){
     console.log("not a palindrome word");
 }
 */
+
+//////////////////          CLASS PRACTICE TASK       //////////////////////////
+// write a program to find out greatest number in array.
+
+// METHOD 1
+
+console.log("------------ CLASS TASK - Find greatest number in array ------------  ");  
+var arr = [778,23,55,67,2,45,4,9899,101,99,214,304,55,778];
+console.log(arr);
+//sort out the max number;
+var max = 0;
+/*
+//METHOD 1:
+for(var i=0; i<arr.length; i++){
+    if(max < arr[i]){
+        max = arr[i];
+    }
+}
+console.log(max);
+
+*/
+//METHOD 2:
+for(var i=0; i<arr.length; i++){
+    if(arr[i]>arr[i+1]){
+        arr[i+1]= arr[i];
+        max = arr[i+1];
+    }
+    else {
+        max = arr[arr.length-1];
+    }
+}
+console.log("greatest number is "+max);
