@@ -1,4 +1,7 @@
-alert("Welcome to the Icecream Shop");
+
+
+window.addEventListener('load',()=> {
+    alert("Welcome to the Icecream Shop");
 
 let price = 0;
 let pricecategory = ""
@@ -101,8 +104,7 @@ item_el.classList.add("totalprice");
 item_el.innerText = "Total: PKR "+price;
 result.appendChild(item_el);
 
-
-
+})
 
 //console.log("cart");
 /*
